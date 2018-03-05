@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Myeongjo', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0,0, 0,.1);
+    position: fixed;
+    width: 100%;
+    align-items: center;
+
+    
+}
+
+.logo img{
+    width: 70px;
+    padding-top: 10px;
+}
+
+.lista-menu ul {
+    list-style:none;
+    display: inline;
+    display: flex;
+    
+ 
+}
+
+.lista-menu a{
+    text-decoration: none;
+    justify-content: space-between;
+    color:rgb(240, 169, 169);
+    text-shadow: 1px 1px 1px rgb(240, 169, 169);
+    font-size: 17px;
+    
+
+}
+
+li{
+    padding-right: 50px;
+}
+
+
+header{
+    background: url(../img/street.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: rgb(235, 72, 100);
+    font-size: 30px;
+
+   
+
+}
+
+.principal-section{
+    background:white;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+
+.principal p{
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.principal input{
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 72, 100);
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+
+}
+
+.principal strong{
+    color: rgb(235, 72, 100);
+    text-shadow: thistle;
+}
+
+
